@@ -1,0 +1,57 @@
+Country;EU;Europe;Unleaded 95 EUR;Unleaded 95 Price;Diesel EUR;Diesel Price;LPG EUR;LPG Price;LPG Nozzle;LPG stations;Record Date
+Albania;No;Yes;0.000;ALL 172.00;0.000;ALL 169.00;0.000;ALL 72.00;Dish;70;January 2, 2020
+Algeria;No;No;0.000;DZD 22.60;0.000;DZD 13.70;0.000;DZD 9.00;Unknown;Unknown;January 2, 2020
+Andorra;No;Yes;1.164;;1.054;;     ;;Unknown;1;January 2, 2020
+Armenia;No;Yes;0.000;AMD 510.00;0.000;AMD 480.00;     ;;Unknown;Unknown;January 2, 2020
+Austria;Yes;Yes;1.169;;1.155;;0.779;;Dish;26;January 2, 2020
+Belarus;No;Yes;0.000;BYN 1.730;0.000;BYN 1.730;0.000;BYN 0.910;Unknown;39;January 2, 2020
+Belgium;Yes;Yes;1.558;;1.590;;0.575;;Acme;615;January 2, 2020
+Bosnia and Herzegovina;No;Yes;0.000;BAM 1.710;0.000;BAM 1.560;0.000;BAM 0.860;Dish;9;January 2, 2020
+Bulgaria;Yes;Yes;0.000;BGN 2.220;0.000;BGN 2.280;0.000;BGN 0.950;Dish;3000;January 2, 2020
+Croatia;Yes;Yes;0.000;HRK 10.440;0.000;HRK 10.310;0.000;HRK 5.000;Dish;200;January 2, 2020
+Cyprus;Yes;Yes;1.079;;1.172;;     ;;Unknown;Unknown;January 2, 2020
+Czech Republic;Yes;Yes;0.000;CZK 29.900;0.000;CZK 29.900;0.000;CZK 12.900;Dish;800;January 2, 2020
+Denmark;Yes;Yes;0.000;DKK 12.690;0.000;DKK 11.390;     ;;Dish;34;January 2, 2020
+Egypt;No;No;0.000;EGP 7.550;0.000;EGP 5.500;     ;;Unknown;Unknown;January 2, 2020
+Estonia;Yes;Yes;1.317;;1.317;;0.519;;Dish;50;January 2, 2020
+Finland;Yes;Yes;1.517;;1.413;;     ;;None;None;January 2, 2020
+France;Yes;Yes;1.540;;1.485;;0.874;;Dish;1800;January 2, 2020
+Georgia;No;Yes;0.000;GEL 1.990;0.000;GEL 1.940;     ;;Unknown;Unknown;January 2, 2020
+Germany;Yes;Yes;1.429;;1.299;;0.629;;Acme;6527;January 2, 2020
+Greece;Yes;Yes;1.618;;1.459;;0.849;;Dish;41;January 2, 2020
+Hungary;Yes;Yes;0.000;HUF 390.60;0.000;HUF 415.70;0.000;HUF 239.90;Dish;489;January 2, 2020
+Iceland;No;Yes;0.000;ISK 233.10;0.000;ISK 227.90;     ;;Unknown;Unknown;January 2, 2020
+Ireland;Yes;Yes;1.417;;1.314;;0.690;;Acme;200;January 2, 2020
+Israel;No;No;0.000;ILS 6.350;0.000;ILS 8.180;0.000;ILS 3.040;Bayonet;Unknown;January 2, 2020
+Italy;Yes;Yes;1.630;;1.524;;0.608;;Dish;2346;January 2, 2020
+Jordan;No;No;0.000;JOD 0.955;0.000;JOD 0.550;     ;;Unknown;3;January 2, 2020
+Kosovo;No;Yes;1.050;;1.000;;0.510;;Unknown;Unknown;January 2, 2020
+Kuwait;No;No;0.000;KWD 0.065;0.000;KWD 0.110;     ;;Unknown;Unknown;January 2, 2020
+Latvia;Yes;Yes;1.275;;1.194;;0.549;;Dish;85;January 2, 2020
+Lebanon;No;No;0.000;LBP 2450.00;0.000;LBP 1760.00;0.000;LBP 1440.00;Unknown;Unknown;January 2, 2020
+Libya;No;No;0.000;LYD 0.200;0.000;LYD 0.150;     ;;Unknown;Unknown;January 2, 2020
+Lithuania;Yes;Yes;1.129;;1.079;;0.583;;Dish;840;January 2, 2020
+Luxembourg;Yes;Yes;1.226;;1.134;;0.520;;Acme;8;January 2, 2020
+Macedonia;No;Yes;0.000;MKD 67.00;0.000;MKD 62.00;0.000;MKD 27.50;Dish;9;January 2, 2020
+Malta;Yes;Yes;1.410;;1.280;;     ;;Unknown;Unknown;January 2, 2020
+Moldova;No;Yes;0.000;MDL 17.670;0.000;MDL 15.750;0.000;MDL 10.570;Unknown;245;January 2, 2020
+Montenegro;No;Yes;1.310;;1.261;;0.580;;Dish;10;January 2, 2020
+Morocco;No;No;0.000;MAD 10.910;0.000;MAD 9.580;     ;;Unknown;Unknown;January 2, 2020
+Netherlands;Yes;Yes;1.804;;1.524;;0.879;;Bayonet;1480;January 2, 2020
+Norway;No;Yes;0.000;NOK 17.500;0.000;NOK 16.700;0.000;NOK 8.050;Dish;100;January 2, 2020
+Poland;Yes;Yes;0.000;PLN 4.940;0.000;PLN 5.090;0.000;PLN 2.470;Acme;6800;January 2, 2020
+Portugal;Yes;Yes;1.569;;1.474;;0.699;;Dish;244;January 2, 2020
+Romania;Yes;Yes;0.000;RON 5.890;0.000;RON 6.140;0.000;RON 2.540;Dish;885;January 2, 2020
+Russia;No;Yes;0.000;RUB 46.550;0.000;RUB 46.860;0.000;RUB 23.800;Dish;1;January 2, 2020
+Saudi Arabia;No;No;0.000;SAR 0.900;0.000;SAR 0.750;     ;;Unknown;Unknown;January 2, 2020
+Serbia;No;Yes;0.000;RSD 149.900;0.000;RSD 161.900;0.000;RSD 75.900;Dish;146;January 2, 2020
+Slovakia;Yes;Yes;1.183;;1.056;;0.450;;Dish;546;January 2, 2020
+Slovenia;Yes;Yes;1.276;;1.254;;0.674;;Dish;15;January 2, 2020
+Spain;Yes;Yes;1.293;;1.228;;0.729;;Bayonet;40;January 2, 2020
+Sweden;Yes;Yes;0.000;SEK 15.880;0.000;SEK 16.380;0.000;SEK 9.000;Dish;16;January 2, 2020
+Switzerland;No;Yes;0.000;CHF 1.460;0.000;CHF 1.540;0.000;CHF 0.850;Acme;38;January 2, 2020
+Tunisia;No;No;0.000;TND 1.570;0.000;TND 1.170;     ;;Unknown;Unknown;January 2, 2020
+Turkey;No;Yes;0.000;TRY 7.030;0.000;TRY 6.590;0.000;TRY 1.610;Dish;6853;January 2, 2020
+U.S.A;No;No;0.000;USD 0.657;0.000;USD 0.770;     ;;Acme;2346;January 2, 2020
+Ukraine;No;Yes;0.000;UAH 28.750;0.000;UAH 27.950;0.000;UAH 13.450;Dish;23;January 2, 2020
+United Kingdom;Yes;Yes;0.000;GBP 1.220;0.000;GBP 1.267;0.000;GBP 0.614;Bayonet;1400;January 2, 2020
