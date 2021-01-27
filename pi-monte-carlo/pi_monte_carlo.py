@@ -5,14 +5,15 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 
-# Configuration variables
-RUNS = 1000
+plt.rcParams.update({
+    "text.usetex": True,
+})
 
 
-def run_simulation():
+def run_simulation(runs=1000):
     simulation = []
     circle_points = 0
-    for i in range(RUNS):
+    for i in range(runs):
         # Create a (x, y) point at random
         x, y = random.uniform(-1, 1), random.uniform(-1, 1)
         
@@ -33,18 +34,18 @@ def run_simulation():
 
 def visualize(simulation):
     plt.figure()
+    ax = plt.axes(xlim=(-1, 1), ylim=(-1, 1))
+    ax.set_aspect('equal', 'box')
+    
     for it in simulation:
         x, y, estimate = it
         if x**2 + y**2 <= 1:
-            color = 'r'
+            color = '#c0392b'  # red
         else:
-            color = 'b'
-        plt.plot(x, y, marker='o', color=color)
+            color = '#2980b9'  # blue
+        plt.plot(x, y, marker='o', color=color, markersize=2)
     
-    # Plot formatting
-    plt.axis('equal')
-    plt.axis([-1, 1, -1, 1])
-    plt.title(f"Real Pi = 3.141593 || Estimated Pi = {simulation[-1][2]:.6f}")
+    plt.title(f"$n = {len(simulation)}, \pi \\approx {simulation[-1][2]:.6f}$")
 
 
 def animation(simulation):
@@ -68,8 +69,8 @@ def animation(simulation):
         scat.set_facecolor(colors[:i])
         return scat,
 
-    anim = FuncAnimation(fig, animation_update, frames=RUNS, interval=25, blit=True, repeat=False)
-    anim.save('animation1000.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+    anim = FuncAnimation(fig, animation_update, frames=len(simulation), interval=25, blit=True, repeat=False)
+    anim.save('figures/animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 
 
 def estimation_evolution(simulation):
@@ -78,16 +79,23 @@ def estimation_evolution(simulation):
     plt.plot([0, len(estimations)], [math.pi, math.pi], '--k')
     plt.plot(estimations, '-')
     plt.xlabel('Run')
-    plt.ylabel('Pi estimation')
-    plt.title(f"Real Pi = 3.141593 || Estimated Pi = {simulation[-1][2]:.6f}")
+    plt.ylabel('$\pi$ estimation')
+    plt.title(f"$n = {len(simulation)}, \pi \\approx {simulation[-1][2]:.6f}$")
+
+
+def save_multiple_simulations():
+    RUNS = [1000, 2000, 5000, 10000, 20000, 50000, 100000]
+    for n in RUNS:
+        sim = run_simulation(runs=n)
+        visualize(sim)
+        plt.savefig(f'figures/sim{n}.png')
 
 
 if __name__ == '__main__':
-    sim = run_simulation()
-
+    sim = run_simulation(runs=10000)
     visualize(sim)
     # animation(sim)
-
     estimation_evolution(sim)
-
     plt.show()
+
+    # save_multiple_simulations()

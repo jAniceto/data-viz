@@ -1,2 +1,2 @@
-## Estimating the value of using Monte Carlo simulations
+## Estimating the value of Pi using Monte Carlo simulations
 
