@@ -92,10 +92,10 @@ def save_multiple_simulations():
 
 
 if __name__ == '__main__':
-    sim = run_simulation(runs=10000)
+    sim = run_simulation(runs=1000000)
     visualize(sim)
     # animation(sim)
-    estimation_evolution(sim)
+    # estimation_evolution(sim)
     plt.show()
 
     # save_multiple_simulations()
