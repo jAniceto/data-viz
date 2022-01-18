@@ -1,0 +1,8 @@
+Data sources:
+
+Glasgow Agreement
+https://glasgowagreement.net/pt/inventories/portugal/
+
+Inventario_PT_Acordo_Glasgow_Relatorio.pdf
+
+Base_dados_completa_Inventario_PT_V12.zip
