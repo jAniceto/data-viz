@@ -1,0 +1,2 @@
+Average is 2.71831
+Deviation is 0.0010363730743350203 %
