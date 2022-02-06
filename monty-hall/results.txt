@@ -1,0 +1,2 @@
+Never switches: 33430 wins out of 100000 games (33.43 % win rate).
+Always switches: 66785 wins out of 100000 games (66.79 % win rate).
